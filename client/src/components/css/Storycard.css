@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Montserrat:wght@200;300&display=swap');
+.h11{
+    color: rgb(206, 175, 148);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.h11::before{
+    content: "";
+    width: 180px;
+    display: block;
+    height: 2px;
+    background: red;
+    left: 5%;
+    margin-top: 20px;
+    position: absolute;
+}
+.h11::after{
+    content: "";
+    width: 180px;
+    display: block;
+    height: 2px;
+    background: red;
+    left: 80%;
+    margin-top: 20px;
+    position: absolute;
+}
+.card_img{
+    width: 329px;
+    height: 218px;
+    padding: 5px 5px;
+    border-radius: 15px; 
+}
+.cardx{
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 2px solid gray; */
+    margin: 50px 0px 50px 0px;
+    border-radius: 5px; 
+    width: 334px;
+    height: 420px;
+    transition: .2s linear;
+
+}
+.cardx:hover{
+    transform: scale(1.06);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h3{
+    margin-left: 10px;
+    margin-top: 4px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card_p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    margin-top: 12px;
+}
+

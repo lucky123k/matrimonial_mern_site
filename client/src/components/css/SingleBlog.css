@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lora&family=Montserrat:wght@200;300&family=Source+Sans+Pro:wght@200&display=swap');
+*{
+    font-family: 'Lora', serif;
+}
+.container{
+    background-color: rgb(242,243,232);
+    width: 100%;
+    /* margin-top: 40px; */
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 6%;
+}
+.blog_h11{
+    margin-top: 35px;
+    font-size: 300%;
+    margin-bottom: 20px;
+}
+.bywhom{
+    margin-top: 20px;
+}
+.bywhom p{
+    color: #000;
+}
+
+.imagehaii{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: -25px; */
+    margin-top: 40px;
+}
+.contenthai{
+    margin-top: 50px;
+    width: 85%;
+    margin-left: 80px;
+}
+.contenthai p{
+    color: #000;
+    font-size: 20px;
+}
+.contenthai h1{
+    margin-left: 6px;
+    margin-top: 50px;
+}
+.share{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.font{
+    margin-left: 200px;
+}
+.i11{
+    padding: 4px;
+    margin-bottom: 30px;
+}
+.share p{
+    margin-left: -20px;
+}
+.other .heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: red;
+}
+.ia1{
+   padding: 12px; 
+}
+.helloblogs{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    /* margin-left: 30px; */
+    /* width: 35%; */
+    justify-content: center;
+    /* background: #000;     */
+}

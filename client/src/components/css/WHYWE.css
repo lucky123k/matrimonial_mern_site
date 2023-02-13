@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+.h3why{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.h3why::before{
+    content: "";
+    width: 180px;
+    display: block;
+    height: 2px;
+    background: red;
+    top: 37%;
+    left: 23.5%;
+    position: absolute;
+}
+.h3why::after{
+    content: "";
+    width: 180px;
+    display: block;
+    height: 2px;
+    background: red;
+    top: 37%;
+    left: 62%;
+    position: absolute;
+}
+.h3why1{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    /* height: 700px; */
+    margin-top: 50px;
+    
+    width: auto;
+    /* background: #000; */
+    margin-left: 53px;
+    
+}
+.info1{
+    width: 370px;
+    height: 200px;
+    margin: 0 10px 0 10px;
+    /* margin: 40px; */
+    /* background: #000; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    /* margin-left: 50px; */
+}
+.logo{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.h4_why{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.span1{
+    margin-left: 10px;
+    margin-top: -10.2px;
+    margin-right: 8px;
+    font-family: 'Kolker Brush', cursive;
+    color: red;
+    font-size: 44px;
+}
+
+.faltu{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 70px;
+}
+
+.footer_p1{
+    font-family: 'Kolker Brush', cursive;
+    font-size: 57px;
+    color : rgb(232, 70, 70, 0.7);
+    margin-left: 3px
+}
+.p11{
+    text-align: justify;
+    color: gray;
+    line-height: 25px;
+}

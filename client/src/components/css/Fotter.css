@@ -1,0 +1,65 @@
+.footer{
+    background-color: rgb(52,73,94);
+    height: 250px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 0 50px 0 50px; */
+}
+
+.footer_p{
+    font-family: 'Kolker Brush', cursive;
+    /* margin-left: 5px; */
+    align-items: center;
+    font-size: 57px;
+    color: aliceblue;
+}
+/* h4{
+    color: white;
+} */
+.left1{
+    display: flex;
+    flex-direction: column;
+    /* background: #000; */
+    margin-top: 20px;
+}
+.linkhai{
+    text-decoration: none;
+    color: rgb(161,170,181);
+    padding-top: 12px;
+}
+.linkhai:hover{
+    color: white;
+}
+.darker{
+    height: 80px;
+    margin-top: -20px;
+    background: rgb(46,65,84);
+    display: flex;
+    justify-content: space-around;
+}
+.follow{
+    margin-top: 20px;
+}
+.i{
+    color: white;
+    padding: 3px;
+}
+.h4hai{
+    /* margin-top: 34px; */
+    font-size: 20px;
+    color: white;
+    /* margin-left: 10px; */
+}
+.h3hai{
+    color: white;
+    margin-top: 18px;
+}
+.h4hai2{
+    color: white;
+    /* margin-top: 18px; */
+    font-size: 15px;
+}
+.customer{
+    margin-top: 22px;
+}

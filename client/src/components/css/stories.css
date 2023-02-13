@@ -1,0 +1,30 @@
+.csl{
+    display: flex;
+    justify-content: center;
+}
+.aa{
+    display: flex;
+    border: 2px solid gray;
+    margin-top: 50px;
+    justify-content: center;
+    background-color: rgb(255,90,96);
+    height: 110px;
+    align-items: center;
+}
+.h12{
+    color: white;
+}
+.aa1{
+    margin-left: 50px;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 16px 37px;
+    border-radius: 7px;
+    color: white;
+    transition: .3s linear;
+}
+.aa1:hover{
+    background-color: white;
+    color: blue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

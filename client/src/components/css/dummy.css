@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Philosopher&family=Shalimar&display=swap');
+.linkk{
+    color: rgb(161, 69, 69);
+    font-size: 20px;
+    position: absolute;
+    /* font-weight: bold; */
+    top: 81%;
+    left: 39%;
+    text-decoration: none;
+    border-radius: 12px;
+    padding: 10px;
+    background: rgba(20, 17, 17, 0.3);
+}
+.blogcard h2{
+    position: absolute;
+    /* text-shadow: -14px -14px 2px #777; */
+    top: 5%;
+    left: 32%;
+    color: rgb(229, 201, 201);
+    font-family: 'Shalimar', cursive;
+    font-size: 40px;
+}
+.blogcard p{
+    position: absolute;
+    top: 20%;
+    margin: 0px 35px 0px 35px;
+    font-family: 'PT Serif', serif;
+    color: rgb(247, 247, 247);
+    /* font-weight: 600; */
+    text-align: justify;
+    /* text-shadow: -18px 8px 18px #b4bbbb; */
+}
+.blogcard{
+    position: relative;
+    width: 450px;
+    height: 350px;
+    background: rgba(84, 74, 74, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    /* top: 24%; */
+    border-radius: 19px;
+    /* left: 32%; */
+    
+}

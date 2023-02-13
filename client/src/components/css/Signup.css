@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Lora&family=Montserrat:wght@200;300&family=Source+Sans+Pro:wght@200&display=swap');
+*{
+    font-family: 'Lora', serif;
+}
+.all{
+    background: rgb(245,245,245);
+    /* display: flex; */
+    justify-content: space-around;
+}
+.left{
+    /* background: #000; */
+    display: flex;
+
+}
+.upper{
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    width: 100%;
+    position: relative;
+    height: 190px;
+}
+.navtype{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    height: 60px;
+    background: rgb(130,97,195);
+    top: 35%;
+    align-items: center;
+    left: 10%;
+    justify-content: space-between;
+}
+.right1{
+    /* display: flex; */
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.h2haiiski{
+    /* position: absolute; */
+    background: white;
+    width: 15%;
+    height: 60px;
+   
+    padding-left: 15px; font-family: 'Kolker Brush', cursive;
+    color : rgb(232, 70, 70, 0.7);
+    font-size: 47px;
+
+}
+.h3haibhai{
+    position: absolute;
+    top: 80%;
+    left: 42%;
+}
+.h3haibhai::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 500px;
+    background: white;
+    height: 2px;
+    margin-top: 26px;
+    margin-left: -162px;
+}
+
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    /* border: 5px solid black; */
+    height: auto;
+    margin: 50px 0px 0px 260px ;
+    /* padding-left: 170px; */
+    /* padding-right: 170px; */
+}
+input{
+    padding: 15px;
+    /* border-radius: 4px; */
+    /* position: relative; */
+    margin-top: 10px;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; */
+}
+label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.mid{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    display: flex;
+    /* background: #000; */
+    width: 70%;
+    justify-content: space-between;
+}
+input::placeholder{
+    color: black;
+    position: absolute;
+    transition: 1s linear;
+}
+
+select{
+    /* border: 1px solid black; */
+    padding: 5px;
+    cursor: pointer;
+}
+p{
+    color: grey;
+    margin: 10px 0px 10px 7px;
+}
+.formkaright{
+    /* background: #000; */
+    margin-top: 80px;
+    margin-right: 60px;
+    margin-left: 60px;
+    width: 160px;
+    color: gray;
+    font-size: 12px;
+}
+.fuck{
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.aaa{
+    margin-left: 10px;
+}
+.formkaright h2{
+    font-size: 20px;
+}
+.formkaright h2::before{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 200px;
+    background: gray;
+    height: 2px;
+    margin-top: 32px;
+    margin-left: -21px;
+}
+
+
+/* CSS */
+.btn12{
+  align-items: center;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  width: 210px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transition: .2s linear;
+}
+
+.btn12:active,
+.btn12:hover {
+  opacity: .5;
+}
+
+.p12{
+    margin: 1px;
+}
+.span12{
+    font-weight: bolder;
+}
+.span2{
+    color: red;
+}
+.p123{
+   
+    margin: 1px;
+    margin-bottom: 200px;
+}
